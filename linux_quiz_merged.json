@@ -1,0 +1,4178 @@
+{
+  "total": 321,
+  "questions": [
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "注释符号是？",
+      "options": [
+        "!",
+        "$",
+        ";",
+        "#"
+      ],
+      "answer": 3,
+      "id": 1
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "命令分隔符是？",
+      "options": [
+        ";",
+        "&",
+        "|",
+        "#"
+      ],
+      "answer": 0,
+      "id": 2
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "代表上级目录的是？",
+      "options": [
+        "..",
+        ".",
+        "~",
+        "/"
+      ],
+      "answer": 0,
+      "id": 3
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "代表当前目录的是？",
+      "options": [
+        "/",
+        "~",
+        ".",
+        ".."
+      ],
+      "answer": 2,
+      "id": 4
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "双引号的作用是？",
+      "options": [
+        "执行命令",
+        "转义",
+        "原样输出",
+        "解析变量"
+      ],
+      "answer": 3,
+      "id": 5
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "单引号的作用是？",
+      "options": [
+        "执行命令",
+        "解析变量",
+        "不解析变量",
+        "转义"
+      ],
+      "answer": 2,
+      "id": 6
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "反斜杠的作用是？",
+      "options": [
+        "重定向",
+        "注释",
+        "转义符",
+        "管道"
+      ],
+      "answer": 2,
+      "id": 7
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "Linux路径分隔符是？",
+      "options": [
+        "/",
+        "|",
+        "\\",
+        ":"
+      ],
+      "answer": 0,
+      "id": 8
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "反引号的作用是？",
+      "options": [
+        "注释",
+        "优先执行命令",
+        "变量引用",
+        "通配"
+      ],
+      "answer": 1,
+      "id": 9
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "! 在shell中用于？",
+      "options": [
+        "后台运行",
+        "管道",
+        "调用历史命令",
+        "重定向"
+      ],
+      "answer": 2,
+      "id": 10
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "* 通配符匹配？",
+      "options": [
+        "文件内容",
+        "多个字符",
+        "单个字符",
+        "目录"
+      ],
+      "answer": 1,
+      "id": 11
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "? 通配符匹配？",
+      "options": [
+        "文件内容",
+        "多个字符",
+        "单个字符",
+        "目录"
+      ],
+      "answer": 2,
+      "id": 12
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "$ 用于？",
+      "options": [
+        "调用变量",
+        "后台",
+        "注释",
+        "管道"
+      ],
+      "answer": 0,
+      "id": 13
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "> 重定向符号作用？",
+      "options": [
+        "管道",
+        "输入",
+        "追加",
+        "覆盖原文件"
+      ],
+      "answer": 3,
+      "id": 14
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": ">> 重定向符号作用？",
+      "options": [
+        "管道",
+        "输入",
+        "覆盖",
+        "追加内容"
+      ],
+      "answer": 3,
+      "id": 15
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "< 重定向符号作用？",
+      "options": [
+        "输入重定向",
+        "输出",
+        "追加",
+        "管道"
+      ],
+      "answer": 0,
+      "id": 16
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "| 管道作用？",
+      "options": [
+        "连接命令，传递数据",
+        "重定向",
+        "后台",
+        "变量"
+      ],
+      "answer": 0,
+      "id": 17
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "&& 的作用？",
+      "options": [
+        "前一条失败才执行",
+        "管道",
+        "后台",
+        "前一条成功才执行后一条"
+      ],
+      "answer": 3,
+      "id": 18
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "|| 的作用？",
+      "options": [
+        "管道",
+        "后台",
+        "前一条失败才执行后一条",
+        "前一条成功才执行"
+      ],
+      "answer": 2,
+      "id": 19
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "& 在命令末尾作用？",
+      "options": [
+        "重定向",
+        "将任务放到后台运行",
+        "管道",
+        "变量"
+      ],
+      "answer": 1,
+      "id": 20
+    },
+    {
+      "category": "特殊符号",
+      "difficulty": 1,
+      "question": "~ 代表？",
+      "options": [
+        "根目录",
+        "当前目录",
+        "家目录",
+        "上一级目录"
+      ],
+      "answer": 2,
+      "id": 21
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 useradd 时，自动创建家目录的选项是？",
+      "options": [
+        "-m",
+        "-d",
+        "-s",
+        "-g"
+      ],
+      "answer": 0,
+      "id": 22
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户并指定登录shell为 /bin/bash 使用？",
+      "options": [
+        "-s /bin/bash",
+        "-m",
+        "-g",
+        "-d"
+      ],
+      "answer": 0,
+      "id": 23
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改用户密码用？",
+      "options": [
+        "passwd",
+        "useradd",
+        "chpasswd",
+        "usermod"
+      ],
+      "answer": 0,
+      "id": 24
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "将用户添加到附加组且不覆盖原有组的选项是？",
+      "options": [
+        "-G",
+        "-aG",
+        "-g",
+        "-d"
+      ],
+      "answer": 1,
+      "id": 25
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改用户主组的选项是？",
+      "options": [
+        "-d",
+        "-g",
+        "-aG",
+        "-G"
+      ],
+      "answer": 1,
+      "id": 26
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "锁定用户的选项是？",
+      "options": [
+        "-l",
+        "-U",
+        "-d",
+        "-L"
+      ],
+      "answer": 3,
+      "id": 27
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "解锁用户的选项是？",
+      "options": [
+        "-l",
+        "-U",
+        "-L",
+        "-d"
+      ],
+      "answer": 1,
+      "id": 28
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改用户名的选项是？",
+      "options": [
+        "-l",
+        "-L",
+        "-d",
+        "-U"
+      ],
+      "answer": 0,
+      "id": 29
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "彻底删除用户（含家目录）使用？",
+      "options": [
+        "userdel -r",
+        "userdel",
+        "deluser",
+        "rmuser"
+      ],
+      "answer": 0,
+      "id": 30
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户组用？",
+      "options": [
+        "groupmod",
+        "groupadd",
+        "groupdel",
+        "addgroup"
+      ],
+      "answer": 1,
+      "id": 31
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改组名的选项是？",
+      "options": [
+        "-n",
+        "-p",
+        "-g",
+        "-o"
+      ],
+      "answer": 0,
+      "id": 32
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "删除用户组用？",
+      "options": [
+        "rmgroup",
+        "groupadd",
+        "groupmod",
+        "groupdel"
+      ],
+      "answer": 3,
+      "id": 33
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看用户详细信息（UID、GID等）用？",
+      "options": [
+        "whoami",
+        "groups",
+        "id",
+        "who"
+      ],
+      "answer": 2,
+      "id": 34
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看用户所属所有组用？",
+      "options": [
+        "whoami",
+        "id",
+        "groups",
+        "who"
+      ],
+      "answer": 2,
+      "id": 35
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看所有系统用户信息用？",
+      "options": [
+        "cat /etc/group",
+        "cat /etc/passwd",
+        "cat /etc/shadow",
+        "id"
+      ],
+      "answer": 1,
+      "id": 36
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看所有系统用户组信息用？",
+      "options": [
+        "cat /etc/group",
+        "id",
+        "cat /etc/shadow",
+        "cat /etc/passwd"
+      ],
+      "answer": 0,
+      "id": 37
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看当前登录用户名用？",
+      "options": [
+        "id",
+        "whoami",
+        "groups",
+        "who"
+      ],
+      "answer": 1,
+      "id": 38
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "切换用户用？",
+      "options": [
+        "login",
+        "su",
+        "user switch",
+        "su -"
+      ],
+      "answer": 3,
+      "id": 39
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "强制用户下次登录修改密码用？",
+      "options": [
+        "passwd -e",
+        "chage -l",
+        "usermod -p",
+        "chage -d 0"
+      ],
+      "answer": 3,
+      "id": 40
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看密码过期信息用？",
+      "options": [
+        "chage -d",
+        "usermod -L",
+        "chage -l",
+        "passwd -S"
+      ],
+      "answer": 2,
+      "id": 41
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 test，并指定主组为 group1，正确命令是？",
+      "options": [
+        "useradd -g group1 test",
+        "useradd -G group1 test",
+        "useradd -m -g group1 test",
+        "useradd -aG group1 test"
+      ],
+      "answer": 0,
+      "id": 42
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "将用户 test 添加到附加组 group2 同时保留原附加组，正确命令是？",
+      "options": [
+        "usermod -g group2 test",
+        "groupadd -a test group2",
+        "usermod -aG group2 test",
+        "usermod -G group2 test"
+      ],
+      "answer": 2,
+      "id": 43
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "删除用户 test 但保留家目录，正确命令是？",
+      "options": [
+        "userdel -r test",
+        "userdel test",
+        "deluser test",
+        "rm -rf /home/test"
+      ],
+      "answer": 1,
+      "id": 44
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "查看用户密码状态（如是否锁定）用？",
+      "options": [
+        "usermod -L",
+        "passwd -S",
+        "id",
+        "chage -l"
+      ],
+      "answer": 1,
+      "id": 45
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建系统用户（UID<1000）用哪个选项？",
+      "options": [
+        "-g",
+        "-m",
+        "-r",
+        "-s"
+      ],
+      "answer": 2,
+      "id": 46
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改用户家目录用？",
+      "options": [
+        "usermod -g",
+        "usermod -s",
+        "usermod -d",
+        "usermod -m"
+      ],
+      "answer": 2,
+      "id": 47
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "修改用户登录shell用？",
+      "options": [
+        "usermod -g",
+        "usermod -s",
+        "usermod -d",
+        "usermod -l"
+      ],
+      "answer": 1,
+      "id": 48
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwxr-xr-- 对应的数字权限是？",
+      "options": [
+        "755",
+        "754",
+        "777",
+        "644"
+      ],
+      "answer": 1,
+      "id": 49
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rw-r--r-- 对应的数字权限是？",
+      "options": [
+        "755",
+        "777",
+        "644",
+        "600"
+      ],
+      "answer": 2,
+      "id": 50
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwx--x--x 对应的数字权限是？",
+      "options": [
+        "777",
+        "755",
+        "644",
+        "711"
+      ],
+      "answer": 3,
+      "id": 51
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rw------- 对应的数字权限是？",
+      "options": [
+        "755",
+        "644",
+        "777",
+        "600"
+      ],
+      "answer": 3,
+      "id": 52
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwxr--r-- 对应的数字权限是？",
+      "options": [
+        "744",
+        "644",
+        "777",
+        "755"
+      ],
+      "answer": 0,
+      "id": 53
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rw-rw-r-- 对应的数字权限是？",
+      "options": [
+        "755",
+        "664",
+        "644",
+        "777"
+      ],
+      "answer": 1,
+      "id": 54
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwxrwxrwx 对应的数字权限是？",
+      "options": [
+        "755",
+        "777",
+        "644",
+        "700"
+      ],
+      "answer": 1,
+      "id": 55
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 r-xr-x--- 对应的数字权限是？",
+      "options": [
+        "777",
+        "550",
+        "755",
+        "644"
+      ],
+      "answer": 1,
+      "id": 56
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwxr-xr-x 对应的数字权限是？",
+      "options": [
+        "755",
+        "644",
+        "700",
+        "777"
+      ],
+      "answer": 0,
+      "id": 57
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rw-rw---- 对应的数字权限是？",
+      "options": [
+        "644",
+        "660",
+        "755",
+        "777"
+      ],
+      "answer": 1,
+      "id": 58
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 r-------- 对应的数字权限是？",
+      "options": [
+        "777",
+        "644",
+        "755",
+        "400"
+      ],
+      "answer": 3,
+      "id": 59
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rwx------ 对应的数字权限是？",
+      "options": [
+        "644",
+        "755",
+        "777",
+        "700"
+      ],
+      "answer": 3,
+      "id": 60
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 rw-rw-rw- 对应的数字权限是？",
+      "options": [
+        "644",
+        "777",
+        "755",
+        "666"
+      ],
+      "answer": 3,
+      "id": 61
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "权限 r-xr-xr-x 对应的数字权限是？",
+      "options": [
+        "644",
+        "555",
+        "755",
+        "777"
+      ],
+      "answer": 1,
+      "id": 62
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 751 用字母表示为？",
+      "options": [
+        "rwxr-xr-x",
+        "rwxr-x--x",
+        "rw-r--r--",
+        "rwx------"
+      ],
+      "answer": 1,
+      "id": 63
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 771 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rwxrwx--x",
+        "rw-r--r--",
+        "rwxr-xr-x"
+      ],
+      "answer": 1,
+      "id": 64
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 632 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rw-r--r--",
+        "rw--wx-w-",
+        "rwxr-xr-x"
+      ],
+      "answer": 2,
+      "id": 65
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 551 用字母表示为？",
+      "options": [
+        "r-xr-x--x",
+        "rw-r--r--",
+        "rwxr-xr-x",
+        "rwx------"
+      ],
+      "answer": 0,
+      "id": 66
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 622 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "rwxr-xr-x",
+        "rw--w--w-",
+        "rwx------"
+      ],
+      "answer": 2,
+      "id": 67
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 746 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rwxr-xr-x",
+        "rwxr--rw-",
+        "rw-r--r--"
+      ],
+      "answer": 2,
+      "id": 68
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 644 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "rw-------",
+        "rwx------",
+        "rwxr-xr-x"
+      ],
+      "answer": 0,
+      "id": 69
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 755 用字母表示为？",
+      "options": [
+        "rwxr-xr-x",
+        "rw-r--r--",
+        "rw-------",
+        "rwx------"
+      ],
+      "answer": 0,
+      "id": 70
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 700 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "rwxr-xr-x",
+        "rwx------",
+        "rw-------"
+      ],
+      "answer": 2,
+      "id": 71
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 400 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "r--------",
+        "rwxr-xr-x",
+        "rwx------"
+      ],
+      "answer": 1,
+      "id": 72
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 666 用字母表示为？",
+      "options": [
+        "rwxr-xr-x",
+        "rwx------",
+        "rw-rw-rw-",
+        "rw-r--r--"
+      ],
+      "answer": 2,
+      "id": 73
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 555 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rw-r--r--",
+        "r-xr-xr-x",
+        "rwxr-xr-x"
+      ],
+      "answer": 2,
+      "id": 74
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 754 用字母表示为？",
+      "options": [
+        "rwxr-xr--",
+        "rwxr-xr-x",
+        "rw-r--r--",
+        "rwx------"
+      ],
+      "answer": 0,
+      "id": 75
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 664 用字母表示为？",
+      "options": [
+        "rwxr-xr-x",
+        "rw-rw-r--",
+        "rw-r--r--",
+        "rwx------"
+      ],
+      "answer": 1,
+      "id": 76
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 711 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "rwx------",
+        "rwxr-xr-x",
+        "rwx--x--x"
+      ],
+      "answer": 3,
+      "id": 77
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 744 用字母表示为？",
+      "options": [
+        "rwxr-xr-x",
+        "rwxr--r--",
+        "rwx------",
+        "rw-r--r--"
+      ],
+      "answer": 1,
+      "id": 78
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 600 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rwxr-xr-x",
+        "rw-r--r--",
+        "rw-------"
+      ],
+      "answer": 3,
+      "id": 79
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给所有者添加写权限的符号写法？",
+      "options": [
+        "u+w",
+        "o+w",
+        "g+w",
+        "u+x"
+      ],
+      "answer": 0,
+      "id": 80
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给所属组删除执行权限的符号写法？",
+      "options": [
+        "u-x",
+        "g-x",
+        "g-w",
+        "o-x"
+      ],
+      "answer": 1,
+      "id": 81
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给其他用户设置只读权限（覆盖）的符号写法？",
+      "options": [
+        "o=r",
+        "o-w",
+        "o+r",
+        "u=r"
+      ],
+      "answer": 0,
+      "id": 82
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给所有用户添加读权限的符号写法？",
+      "options": [
+        "u+r",
+        "g+r",
+        "a+r",
+        "o+r"
+      ],
+      "answer": 2,
+      "id": 83
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "设置文件权限为 rwxr-x--- 的符号写法？",
+      "options": [
+        "u=rwx,g=rx,o=wx",
+        "u=rwx,g=r,o=",
+        "u=rwx,g=rx,o=r",
+        "u=rwx,g=rx,o="
+      ],
+      "answer": 3,
+      "id": 84
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给所有者删除写权限用？",
+      "options": [
+        "g-w",
+        "u-x",
+        "u-w",
+        "o-w"
+      ],
+      "answer": 2,
+      "id": 85
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给其他用户添加执行权限用？",
+      "options": [
+        "o+w",
+        "o+x",
+        "u+x",
+        "o+r"
+      ],
+      "answer": 1,
+      "id": 86
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "给所属组设置读写权限用？",
+      "options": [
+        "g=rwx",
+        "g=rw",
+        "g=r",
+        "g=w"
+      ],
+      "answer": 1,
+      "id": 87
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "仅修改文件所有者的命令是？",
+      "options": [
+        "chgrp 组名 文件",
+        "chown 用户名 文件",
+        "chown :组名 文件",
+        "chown 用户名:组名 文件"
+      ],
+      "answer": 1,
+      "id": 88
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "仅修改文件所属组的命令是？",
+      "options": [
+        "chgrp 用户名 文件",
+        "chown 用户名:组名 文件",
+        "chown 用户名 文件",
+        "chown :组名 文件"
+      ],
+      "answer": 3,
+      "id": 89
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "同时修改所有者和所属组的命令是？",
+      "options": [
+        "chown 用户名 文件",
+        "chown :组名 文件",
+        "chown 用户名:组名 文件",
+        "chgrp 组名 文件"
+      ],
+      "answer": 2,
+      "id": 90
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 3,
+      "question": "递归修改目录下所有文件所有者和组的选项是？",
+      "options": [
+        "-r",
+        "-a",
+        "-f",
+        "-R"
+      ],
+      "answer": 3,
+      "id": 91
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "目录必须拥有哪个权限才能进入？",
+      "options": [
+        "读（r）",
+        "所有",
+        "执行（x）",
+        "写（w）"
+      ],
+      "answer": 2,
+      "id": 92
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "文件必须拥有哪个权限才能运行脚本？",
+      "options": [
+        "执行（x）",
+        "所有",
+        "读（r）",
+        "写（w）"
+      ],
+      "answer": 0,
+      "id": 93
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "以下哪个是绝对路径？",
+      "options": [
+        "tmp/file",
+        "./data",
+        "../etc",
+        "/home/user/file.txt"
+      ],
+      "answer": 3,
+      "id": 94
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "以下哪个是相对路径？",
+      "options": [
+        "../etc/nginx",
+        "/tmp",
+        "/home",
+        "/var/log"
+      ],
+      "answer": 0,
+      "id": 95
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "'.' 表示？",
+      "options": [
+        "上级目录",
+        "当前目录",
+        "根目录",
+        "家目录"
+      ],
+      "answer": 1,
+      "id": 96
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "'..' 表示？",
+      "options": [
+        "上级目录",
+        "当前目录",
+        "家目录",
+        "根目录"
+      ],
+      "answer": 0,
+      "id": 97
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "若当前在 /home/alice，则 cd ../tmp 会进入？",
+      "options": [
+        "/tmp",
+        "/home/alice/tmp",
+        "/home/tmp",
+        "/tmp/alice"
+      ],
+      "answer": 0,
+      "id": 98
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "若当前在 /home/alice，则 cd /tmp 使用的是什么路径？",
+      "options": [
+        "硬链接",
+        "相对路径",
+        "符号链接",
+        "绝对路径"
+      ],
+      "answer": 3,
+      "id": 99
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "/root/.bashrc 是绝对路径",
+      "options": [
+        "无效路径",
+        "符号链接",
+        "相对路径",
+        "绝对路径"
+      ],
+      "answer": 3,
+      "id": 100
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "docs/photo.jpg 是相对路径",
+      "options": [
+        "绝对路径",
+        "相对路径",
+        "无效路径",
+        "符号链接"
+      ],
+      "answer": 1,
+      "id": 101
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "/usr/bin 是绝对路径",
+      "options": [
+        "绝对路径",
+        "硬链接",
+        "相对路径",
+        "符号链接"
+      ],
+      "answer": 0,
+      "id": 102
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "./local 是相对路径",
+      "options": [
+        "硬链接",
+        "绝对路径",
+        "符号链接",
+        "相对路径"
+      ],
+      "answer": 3,
+      "id": 103
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "../etc 是相对路径",
+      "options": [
+        "硬链接",
+        "相对路径",
+        "符号链接",
+        "绝对路径"
+      ],
+      "answer": 1,
+      "id": 104
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "/home/user 是绝对路径",
+      "options": [
+        "相对路径",
+        "符号链接",
+        "硬链接",
+        "绝对路径"
+      ],
+      "answer": 3,
+      "id": 105
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "若当前在 /var/log，则 cd /etc 使用？",
+      "options": [
+        "相对路径",
+        "符号链接",
+        "硬链接",
+        "绝对路径"
+      ],
+      "answer": 3,
+      "id": 106
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "若当前在 /var/log，则 cd ../tmp 进入？",
+      "options": [
+        "/var/tmp",
+        "/tmp",
+        "/tmp/var",
+        "/var/log/tmp"
+      ],
+      "answer": 0,
+      "id": 107
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "硬链接与源文件共享什么？",
+      "options": [
+        "文件名",
+        "路径",
+        "数据块",
+        "inode"
+      ],
+      "answer": 3,
+      "id": 108
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "软链接存储的是？",
+      "options": [
+        "目标文件路径",
+        "文件内容",
+        "inode",
+        "数据块"
+      ],
+      "answer": 0,
+      "id": 109
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "硬链接不能跨越什么？",
+      "options": [
+        "分区",
+        "目录",
+        "文件系统",
+        "用户"
+      ],
+      "answer": 2,
+      "id": 110
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "软链接可以跨越？",
+      "options": [
+        "用户",
+        "分区",
+        "文件系统",
+        "目录"
+      ],
+      "answer": 2,
+      "id": 111
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "删除源文件后，硬链接？",
+      "options": [
+        "内容改变",
+        "失效",
+        "被删除",
+        "仍然可用"
+      ],
+      "answer": 3,
+      "id": 112
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "删除源文件后，软链接？",
+      "options": [
+        "仍然可用",
+        "内容改变",
+        "失效",
+        "被删除"
+      ],
+      "answer": 2,
+      "id": 113
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "创建硬链接使用哪个命令？",
+      "options": [
+        "link",
+        "ln -s",
+        "hardlink",
+        "ln"
+      ],
+      "answer": 3,
+      "id": 114
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "创建软链接使用哪个命令？",
+      "options": [
+        "ln -s",
+        "link",
+        "ln",
+        "symlink"
+      ],
+      "answer": 0,
+      "id": 115
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "硬链接和源文件的inode编号？",
+      "options": [
+        "不同",
+        "无关",
+        "相同",
+        "部分相同"
+      ],
+      "answer": 2,
+      "id": 116
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "软链接有自己的inode编号吗？",
+      "options": [
+        "共享",
+        "有",
+        "与目标相同",
+        "没有"
+      ],
+      "answer": 1,
+      "id": 117
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "硬链接计数（Link Count）为0时文件？",
+      "options": [
+        "被删除",
+        "变为隐藏",
+        "可访问",
+        "变为只读"
+      ],
+      "answer": 0,
+      "id": 118
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "目录可以创建硬链接吗？",
+      "options": [
+        "可以",
+        "可以但有限制",
+        "只有root可以",
+        "通常不可以"
+      ],
+      "answer": 3,
+      "id": 119
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "目录可以创建软链接吗？",
+      "options": [
+        "只有root可以",
+        "可以",
+        "有限制",
+        "不可以"
+      ],
+      "answer": 1,
+      "id": 120
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "硬链接和源文件是否共享数据块？",
+      "options": [
+        "不确定",
+        "是",
+        "部分",
+        "否"
+      ],
+      "answer": 1,
+      "id": 121
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "软链接文件的大小通常等于？",
+      "options": [
+        "目标路径的字符数",
+        "源文件大小",
+        "0",
+        "不定"
+      ],
+      "answer": 0,
+      "id": 122
+    },
+    {
+      "category": "软硬链接",
+      "difficulty": 2,
+      "question": "修改软链接的权限会影响目标文件吗？",
+      "options": [
+        "不会",
+        "只影响软链接本身",
+        "视情况",
+        "会"
+      ],
+      "answer": 0,
+      "id": 123
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "root用户的shell提示符结尾是？",
+      "options": [
+        "@",
+        "$",
+        "#",
+        "%"
+      ],
+      "answer": 2,
+      "id": 124
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "普通用户的shell提示符结尾是？",
+      "options": [
+        "$",
+        "@",
+        "#",
+        "%"
+      ],
+      "answer": 0,
+      "id": 125
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "PS1 环境变量用于？",
+      "options": [
+        "定制提示符格式",
+        "设置主机名",
+        "设置路径",
+        "设置别名"
+      ],
+      "answer": 0,
+      "id": 126
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "\\u 在PS1中代表？",
+      "options": [
+        "当前路径",
+        "时间",
+        "用户名",
+        "主机名"
+      ],
+      "answer": 2,
+      "id": 127
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "\\h 在PS1中代表？",
+      "options": [
+        "当前路径",
+        "主机名",
+        "时间",
+        "用户名"
+      ],
+      "answer": 1,
+      "id": 128
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "\\W 在PS1中代表？",
+      "options": [
+        "用户名",
+        "完整路径",
+        "主机名",
+        "相对路径"
+      ],
+      "answer": 3,
+      "id": 129
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "修改主机名的命令是？",
+      "options": [
+        "set-hostname",
+        "hostnamectl",
+        "hostname",
+        "hostnamectl set-hostname"
+      ],
+      "answer": 3,
+      "id": 130
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "重启系统的命令是？",
+      "options": [
+        "shutdown -h",
+        "poweroff",
+        "reboot",
+        "init 0"
+      ],
+      "answer": 2,
+      "id": 131
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "立即关机的命令是？",
+      "options": [
+        "shutdown -r now",
+        "init 6",
+        "reboot",
+        "shutdown -h now"
+      ],
+      "answer": 3,
+      "id": 132
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "取消已计划的shutdown命令用？",
+      "options": [
+        "shutdown -k",
+        "shutdown -c",
+        "shutdown -r",
+        "shutdown -a"
+      ],
+      "answer": 1,
+      "id": 133
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "shell命令的基本语法是？",
+      "options": [
+        "目标 命令 参数",
+        "命令 参数 目标",
+        "参数 命令 目标",
+        "命令 目标 参数"
+      ],
+      "answer": 1,
+      "id": 134
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Tab键在shell中用于？",
+      "options": [
+        "执行命令",
+        "退出",
+        "清屏",
+        "补全命令或路径"
+      ],
+      "answer": 3,
+      "id": 135
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Ctrl+c 的作用是？",
+      "options": [
+        "终止前台程序",
+        "清屏",
+        "退出shell",
+        "搜索历史"
+      ],
+      "answer": 0,
+      "id": 136
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Ctrl+l 的作用是？",
+      "options": [
+        "终止程序",
+        "搜索历史",
+        "清屏",
+        "退出shell"
+      ],
+      "answer": 2,
+      "id": 137
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Ctrl+d 的作用是？",
+      "options": [
+        "退出当前shell",
+        "清屏",
+        "搜索历史",
+        "终止程序"
+      ],
+      "answer": 0,
+      "id": 138
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Ctrl+z 的作用是？",
+      "options": [
+        "清屏",
+        "暂停任务放入后台",
+        "终止程序",
+        "退出shell"
+      ],
+      "answer": 1,
+      "id": 139
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "Ctrl+r 的作用是？",
+      "options": [
+        "终止程序",
+        "清屏",
+        "搜索历史命令",
+        "退出shell"
+      ],
+      "answer": 2,
+      "id": 140
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "esc+. 的作用是？",
+      "options": [
+        "调出上一条命令的最后一个参数",
+        "复制",
+        "补全命令",
+        "粘贴"
+      ],
+      "answer": 0,
+      "id": 141
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "查看历史命令用？",
+      "options": [
+        "!!",
+        "history",
+        "history -c",
+        "alias"
+      ],
+      "answer": 1,
+      "id": 142
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "执行历史列表中编号为 8 的命令用？",
+      "options": [
+        "!$",
+        "!8",
+        "!-1",
+        "!!"
+      ],
+      "answer": 1,
+      "id": 143
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "执行上一条命令用？",
+      "options": [
+        "!$",
+        "!0",
+        "!!",
+        "!-1"
+      ],
+      "answer": 2,
+      "id": 144
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "清除当前会话历史命令用？",
+      "options": [
+        "history -a",
+        "history -w",
+        "history -d",
+        "history -c"
+      ],
+      "answer": 3,
+      "id": 145
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "查看别名用？",
+      "options": [
+        "type",
+        "alias",
+        "unalias",
+        "which"
+      ],
+      "answer": 1,
+      "id": 146
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "取消别名用？",
+      "options": [
+        "rm",
+        "unalias",
+        "unalias -a",
+        "alias -r"
+      ],
+      "answer": 1,
+      "id": 147
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "永久定义别名需写入哪个文件？",
+      "options": [
+        "~/.bash_profile",
+        "/etc/bashrc",
+        "~/.bashrc",
+        "/etc/profile"
+      ],
+      "answer": 2,
+      "id": 148
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "查看所有环境变量用？",
+      "options": [
+        "export",
+        "set",
+        "env",
+        "printenv"
+      ],
+      "answer": 2,
+      "id": 149
+    },
+    {
+      "category": "shell解释器",
+      "difficulty": 2,
+      "question": "设置环境变量用？",
+      "options": [
+        "export",
+        "set",
+        "env",
+        "declare"
+      ],
+      "answer": 0,
+      "id": 150
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，移动光标向左的键是？",
+      "options": [
+        "l",
+        "k",
+        "j",
+        "h"
+      ],
+      "answer": 3,
+      "id": 151
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，移动光标向下的键是？",
+      "options": [
+        "h",
+        "k",
+        "j",
+        "l"
+      ],
+      "answer": 2,
+      "id": 152
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，移动光标向上的键是？",
+      "options": [
+        "k",
+        "h",
+        "l",
+        "j"
+      ],
+      "answer": 0,
+      "id": 153
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，移动光标向右的键是？",
+      "options": [
+        "h",
+        "k",
+        "l",
+        "j"
+      ],
+      "answer": 2,
+      "id": 154
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，向下翻一页的快捷键是？",
+      "options": [
+        "Ctrl+u",
+        "Ctrl+d",
+        "Ctrl+b",
+        "Ctrl+f"
+      ],
+      "answer": 3,
+      "id": 155
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，向上翻一页的快捷键是？",
+      "options": [
+        "Ctrl+f",
+        "Ctrl+b",
+        "Ctrl+u",
+        "Ctrl+d"
+      ],
+      "answer": 1,
+      "id": 156
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至行首（第0个字符）的快捷键是？",
+      "options": [
+        "0",
+        "$",
+        "gg",
+        "^"
+      ],
+      "answer": 0,
+      "id": 157
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至行首第一个字符的快捷键是？",
+      "options": [
+        "^",
+        "gg",
+        "0",
+        "$"
+      ],
+      "answer": 0,
+      "id": 158
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至行尾的快捷键是？",
+      "options": [
+        "^",
+        "$",
+        "0",
+        "G"
+      ],
+      "answer": 1,
+      "id": 159
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至文首的快捷键是？",
+      "options": [
+        "0",
+        "gg",
+        "^",
+        "G"
+      ],
+      "answer": 1,
+      "id": 160
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至文尾的快捷键是？",
+      "options": [
+        "G",
+        "^",
+        "gg",
+        "0"
+      ],
+      "answer": 0,
+      "id": 161
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，跳至第5行的快捷键是？",
+      "options": [
+        "gg5",
+        "5G",
+        "5gg",
+        "G5"
+      ],
+      "answer": 2,
+      "id": 162
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，删除光标的单个字符用？",
+      "options": [
+        "dd",
+        "x",
+        "dw",
+        "de"
+      ],
+      "answer": 1,
+      "id": 163
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，删除光标所在行用？",
+      "options": [
+        "dd",
+        "dw",
+        "x",
+        "de"
+      ],
+      "answer": 0,
+      "id": 164
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，从光标开始删除6行用？",
+      "options": [
+        "d6",
+        "6dw",
+        "dd6",
+        "6dd"
+      ],
+      "answer": 3,
+      "id": 165
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，删除一个单词用？",
+      "options": [
+        "x",
+        "dw",
+        "dd",
+        "de"
+      ],
+      "answer": 1,
+      "id": 166
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，粘贴内容到当前行下面用？",
+      "options": [
+        "y",
+        "P",
+        "p",
+        "yy"
+      ],
+      "answer": 2,
+      "id": 167
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，粘贴内容到当前行上面用？",
+      "options": [
+        "y",
+        "P",
+        "yy",
+        "p"
+      ],
+      "answer": 1,
+      "id": 168
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，复制当前行用？",
+      "options": [
+        "yy",
+        "y",
+        "p",
+        "P"
+      ],
+      "answer": 0,
+      "id": 169
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，复制5行用？",
+      "options": [
+        "y5",
+        "5yy",
+        "yy5",
+        "5y"
+      ],
+      "answer": 1,
+      "id": 170
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，向后搜索pattern用？",
+      "options": [
+        "/pattern",
+        "?pattern",
+        "n",
+        ":s/pattern"
+      ],
+      "answer": 0,
+      "id": 171
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，向前搜索pattern用？",
+      "options": [
+        "N",
+        "/pattern",
+        "?pattern",
+        ":s/pattern"
+      ],
+      "answer": 2,
+      "id": 172
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，全局替换old为new用？",
+      "options": [
+        ":%s/old/new/g",
+        ":21,30s/old/new/g",
+        ":%s/old/new/gc",
+        ":s/old/new/g"
+      ],
+      "answer": 0,
+      "id": 173
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，替换21-30行的old为new用？",
+      "options": [
+        ":21,30s/old/new",
+        ":%s/old/new/g",
+        ":21,30s/old/new/g",
+        ":s/old/new/g"
+      ],
+      "answer": 2,
+      "id": 174
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，保存文件用？",
+      "options": [
+        ":wq",
+        ":x",
+        ":w",
+        ":q"
+      ],
+      "answer": 2,
+      "id": 175
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，保存并退出用？",
+      "options": [
+        ":x",
+        ":w",
+        ":wq",
+        ":q"
+      ],
+      "answer": 2,
+      "id": 176
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，强制退出不保存用？",
+      "options": [
+        ":q!",
+        ":wq",
+        ":q",
+        ":x"
+      ],
+      "answer": 0,
+      "id": 177
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，撤销操作用？",
+      "options": [
+        "Ctrl+r",
+        "U",
+        "u",
+        "Ctrl+z"
+      ],
+      "answer": 2,
+      "id": 178
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，恢复撤销用？",
+      "options": [
+        "U",
+        "Ctrl+r",
+        "Ctrl+z",
+        "u"
+      ],
+      "answer": 1,
+      "id": 179
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，进入插入模式的命令是？",
+      "options": [
+        "I",
+        "i",
+        "a",
+        "o"
+      ],
+      "answer": 1,
+      "id": 180
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，在光标后插入用？",
+      "options": [
+        "a",
+        "o",
+        "A",
+        "i"
+      ],
+      "answer": 0,
+      "id": 181
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，在下一行插入用？",
+      "options": [
+        "O",
+        "a",
+        "o",
+        "i"
+      ],
+      "answer": 2,
+      "id": 182
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，替换单个字符用？",
+      "options": [
+        "R",
+        "s",
+        "S",
+        "r"
+      ],
+      "answer": 3,
+      "id": 183
+    },
+    {
+      "category": "vim编辑器",
+      "difficulty": 2,
+      "question": "在vim中，撤销所有修改用？",
+      "options": [
+        "Ctrl+r",
+        ":undo",
+        ":e!",
+        "u"
+      ],
+      "answer": 2,
+      "id": 184
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 打包但不压缩的选项是？",
+      "options": [
+        "-tf",
+        "-cf",
+        "-xf",
+        "-zcf"
+      ],
+      "answer": 1,
+      "id": 185
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 打包并gzip压缩的选项是？",
+      "options": [
+        "-cf",
+        "-jcf",
+        "-zcf",
+        "-Jcf"
+      ],
+      "answer": 2,
+      "id": 186
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 打包并bzip2压缩的选项是？",
+      "options": [
+        "-cf",
+        "-Jcf",
+        "-jcf",
+        "-zcf"
+      ],
+      "answer": 2,
+      "id": 187
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 打包并xz压缩的选项是？",
+      "options": [
+        "-cf",
+        "-Jcf",
+        "-zcf",
+        "-jcf"
+      ],
+      "answer": 1,
+      "id": 188
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 查看压缩包内容的选项是？",
+      "options": [
+        "-zcf",
+        "-tf",
+        "-cf",
+        "-xf"
+      ],
+      "answer": 1,
+      "id": 189
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 解压的选项是？",
+      "options": [
+        "-xf",
+        "-tf",
+        "-cf",
+        "-zcf"
+      ],
+      "answer": 0,
+      "id": 190
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 解压到指定目录用哪个选项？",
+      "options": [
+        "-C",
+        "-p",
+        "-d",
+        "-o"
+      ],
+      "answer": 0,
+      "id": 191
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "gzip 压缩单个文件的命令是？",
+      "options": [
+        "gzip 文件",
+        "gzip -d",
+        "gzip -r",
+        "gzip -k"
+      ],
+      "answer": 0,
+      "id": 192
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "gzip 解压的命令是？",
+      "options": [
+        "unzip",
+        "gzip -d",
+        "gzip",
+        "gunzip"
+      ],
+      "answer": 1,
+      "id": 193
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "zip 压缩目录需要哪个选项？",
+      "options": [
+        "-d",
+        "-o",
+        "-r",
+        "-p"
+      ],
+      "answer": 2,
+      "id": 194
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "unzip 解压zip包的命令是？",
+      "options": [
+        "unzip",
+        "zip -d",
+        "unar",
+        "gzip -d"
+      ],
+      "answer": 0,
+      "id": 195
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "rar 解压通常使用哪个工具？",
+      "options": [
+        "unrar",
+        "rar",
+        "unar",
+        "zip"
+      ],
+      "answer": 2,
+      "id": 196
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "查看文件类型的命令是？",
+      "options": [
+        "file",
+        "type",
+        "ls",
+        "stat"
+      ],
+      "answer": 0,
+      "id": 197
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar.gz、tar.bz2、tar.xz 中压缩比最高的是？",
+      "options": [
+        "tar.gz",
+        "三者相同",
+        "tar.xz",
+        "tar.bz2"
+      ],
+      "answer": 2,
+      "id": 198
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "tar 保留文件权限和属性的选项是？",
+      "options": [
+        "-f",
+        "-o",
+        "-p",
+        "-v"
+      ],
+      "answer": 2,
+      "id": 199
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "查看tar压缩包详细列表用？",
+      "options": [
+        "-tf",
+        "-tvf",
+        "-xf",
+        "-cvf"
+      ],
+      "answer": 1,
+      "id": 200
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "gzip 压缩时保留原文件的选项是？",
+      "options": [
+        "-k",
+        "-v",
+        "-d",
+        "-f"
+      ],
+      "answer": 0,
+      "id": 201
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "zip 解压到指定目录用？",
+      "options": [
+        "unzip -q",
+        "unzip -d",
+        "unzip -o",
+        "unzip -n"
+      ],
+      "answer": 1,
+      "id": 202
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "上传文件到Linux服务器常用？",
+      "options": [
+        "sz",
+        "wget",
+        "scp",
+        "rz"
+      ],
+      "answer": 3,
+      "id": 203
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "从Linux下载文件到本地常用？",
+      "options": [
+        "sz",
+        "rz",
+        "wget",
+        "scp"
+      ],
+      "answer": 0,
+      "id": 204
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "安装rz/sz需要安装哪个包？",
+      "options": [
+        "lrz",
+        "rzsz",
+        "sz",
+        "lrzsz"
+      ],
+      "answer": 3,
+      "id": 205
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "scp 推送本地文件到远端服务器的格式？",
+      "options": [
+        "scp -r",
+        "scp 路径",
+        "scp 用户@主机:路径 本地文件",
+        "scp 本地文件 用户@主机:路径"
+      ],
+      "answer": 3,
+      "id": 206
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "scp 从远端拉取文件到本地的格式？",
+      "options": [
+        "scp -r",
+        "scp 用户@主机:路径 本地路径",
+        "scp 用户@主机",
+        "scp 本地路径 用户@主机:路径"
+      ],
+      "answer": 1,
+      "id": 207
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "scp 递归传输目录需要哪个选项？",
+      "options": [
+        "-r",
+        "-a",
+        "-p",
+        "-R"
+      ],
+      "answer": 0,
+      "id": 208
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "wget 下载文件并指定保存名称的选项是？",
+      "options": [
+        "-O",
+        "-q",
+        "-P",
+        "-o"
+      ],
+      "answer": 0,
+      "id": 209
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "wget 下载文件到指定目录的选项是？",
+      "options": [
+        "-P",
+        "-O",
+        "-q",
+        "-o"
+      ],
+      "answer": 0,
+      "id": 210
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "curl 下载文件并指定保存名称的选项是？",
+      "options": [
+        "-s",
+        "-L",
+        "-o",
+        "-O"
+      ],
+      "answer": 2,
+      "id": 211
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "curl 模拟浏览器发送请求，常用于？",
+      "options": [
+        "文件传输",
+        "远程登录",
+        "下载文件或测试API",
+        "上传文件"
+      ],
+      "answer": 2,
+      "id": 212
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "scp 传输时保留文件权限的选项？",
+      "options": [
+        "-v",
+        "-a",
+        "-r",
+        "-p"
+      ],
+      "answer": 3,
+      "id": 213
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "wget 断点续传的选项？",
+      "options": [
+        "-P",
+        "-q",
+        "-c",
+        "-O"
+      ],
+      "answer": 2,
+      "id": 214
+    },
+    {
+      "category": "文件传输",
+      "difficulty": 2,
+      "question": "curl 跟随重定向的选项？",
+      "options": [
+        "-I",
+        "-o",
+        "-L",
+        "-s"
+      ],
+      "answer": 2,
+      "id": 215
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "rpm 安装软件包的选项是？",
+      "options": [
+        "-qa",
+        "-e",
+        "-ivh",
+        "-Uvh"
+      ],
+      "answer": 2,
+      "id": 216
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "rpm 卸载软件包的选项是？",
+      "options": [
+        "-qa",
+        "-e",
+        "-Uvh",
+        "-ivh"
+      ],
+      "answer": 1,
+      "id": 217
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "rpm 升级软件包的选项是？",
+      "options": [
+        "-Uvh",
+        "-ivh",
+        "-e",
+        "-qa"
+      ],
+      "answer": 0,
+      "id": 218
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "rpm 查询已安装软件包的选项是？",
+      "options": [
+        "-Uvh",
+        "-e",
+        "-ivh",
+        "-qa"
+      ],
+      "answer": 3,
+      "id": 219
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 安装软件的命令是？",
+      "options": [
+        "yum remove",
+        "yum install",
+        "yum search",
+        "yum update"
+      ],
+      "answer": 1,
+      "id": 220
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 卸载软件的命令是？",
+      "options": [
+        "yum remove",
+        "yum install",
+        "yum update",
+        "yum search"
+      ],
+      "answer": 0,
+      "id": 221
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 更新所有软件的命令是？",
+      "options": [
+        "yum remove",
+        "yum update",
+        "yum search",
+        "yum install"
+      ],
+      "answer": 1,
+      "id": 222
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 扩展仓库 epel-release 的作用？",
+      "options": [
+        "安装内核",
+        "卸载软件",
+        "更新系统",
+        "提供额外软件包"
+      ],
+      "answer": 3,
+      "id": 223
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "编译安装的一般步骤顺序是？",
+      "options": [
+        "./configure -> make install -> make",
+        "make -> ./configure -> make install",
+        "make install -> make -> ./configure",
+        "./configure -> make -> make install"
+      ],
+      "answer": 3,
+      "id": 224
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "编译安装中 --prefix 用于？",
+      "options": [
+        "指定模块",
+        "指定安装路径",
+        "指定编译器",
+        "指定依赖"
+      ],
+      "answer": 1,
+      "id": 225
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 搜索软件包用？",
+      "options": [
+        "yum provides",
+        "yum search",
+        "yum info",
+        "yum list"
+      ],
+      "answer": 1,
+      "id": 226
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "yum 查看软件包信息用？",
+      "options": [
+        "yum provides",
+        "yum list",
+        "yum search",
+        "yum info"
+      ],
+      "answer": 3,
+      "id": 227
+    },
+    {
+      "category": "软件安装",
+      "difficulty": 2,
+      "question": "rpm 查询某个文件属于哪个包用？",
+      "options": [
+        "rpm -qa",
+        "rpm -qi",
+        "rpm -qf",
+        "rpm -ql"
+      ],
+      "answer": 2,
+      "id": 228
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "查看系统所有进程完整信息的命令是？",
+      "options": [
+        "ps aux",
+        "pstree",
+        "top",
+        "ps -ef"
+      ],
+      "answer": 0,
+      "id": 229
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "ps aux 和 ps -ef 的主要区别？",
+      "options": [
+        "一个只能看当前用户",
+        "显示格式不同",
+        "无区别",
+        "功能不同"
+      ],
+      "answer": 1,
+      "id": 230
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "实时动态查看进程的命令是？",
+      "options": [
+        "top",
+        "ps",
+        "htop",
+        "pstree"
+      ],
+      "answer": 0,
+      "id": 231
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "在top中，按CPU占用排序的按键是？",
+      "options": [
+        "T",
+        "P",
+        "M",
+        "q"
+      ],
+      "answer": 1,
+      "id": 232
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "在top中，按内存占用排序的按键是？",
+      "options": [
+        "M",
+        "P",
+        "q",
+        "T"
+      ],
+      "answer": 0,
+      "id": 233
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "在top中，退出top的按键是？",
+      "options": [
+        "Esc",
+        "Ctrl+c",
+        "q",
+        "Ctrl+z"
+      ],
+      "answer": 2,
+      "id": 234
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "杀死进程默认发送什么信号？",
+      "options": [
+        "SIGHUP (1)",
+        "SIGINT (2)",
+        "SIGTERM (15)",
+        "SIGKILL (9)"
+      ],
+      "answer": 2,
+      "id": 235
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "强制杀死进程的信号是？",
+      "options": [
+        "SIGTERM (15)",
+        "SIGKILL (9)",
+        "SIGHUP (1)",
+        "SIGINT (2)"
+      ],
+      "answer": 1,
+      "id": 236
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "kill -9 PID 的作用？",
+      "options": [
+        "正常终止",
+        "暂停进程",
+        "重启进程",
+        "强制终止进程"
+      ],
+      "answer": 3,
+      "id": 237
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "将前台任务放入后台运行用？",
+      "options": [
+        "Ctrl+d",
+        "Ctrl+c",
+        "Ctrl+z",
+        "bg"
+      ],
+      "answer": 2,
+      "id": 238
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "查看后台任务用？",
+      "options": [
+        "bg",
+        "ps",
+        "fg",
+        "jobs"
+      ],
+      "answer": 3,
+      "id": 239
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "将后台任务调回前台用？",
+      "options": [
+        "fg",
+        "kill",
+        "bg",
+        "jobs"
+      ],
+      "answer": 0,
+      "id": 240
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "让后台任务继续运行用？",
+      "options": [
+        "jobs",
+        "fg",
+        "bg",
+        "kill"
+      ],
+      "answer": 2,
+      "id": 241
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "查看进程树用？",
+      "options": [
+        "pstree",
+        "top",
+        "ps",
+        "htop"
+      ],
+      "answer": 0,
+      "id": 242
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 3,
+      "question": "查看所有进程树用？",
+      "options": [
+        "pstree",
+        "top",
+        "ps",
+        "htop"
+      ],
+      "answer": 0,
+      "id": 243
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "将PID 1234进程挂起（暂停）用？",
+      "options": [
+        "kill -CONT 1234",
+        "kill -TERM 1234",
+        "kill -STOP 1234",
+        "kill -KILL 1234"
+      ],
+      "answer": 2,
+      "id": 244
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "恢复暂停的进程用？",
+      "options": [
+        "kill -KILL 1234",
+        "kill -CONT 1234",
+        "kill -TERM 1234",
+        "kill -STOP 1234"
+      ],
+      "answer": 1,
+      "id": 245
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "查看某个进程的详细信息用？",
+      "options": [
+        "ps -p PID",
+        "pstree -p",
+        "ps aux | grep PID",
+        "top -p PID"
+      ],
+      "answer": 0,
+      "id": 246
+    },
+    {
+      "category": "进程管理",
+      "difficulty": 2,
+      "question": "终止所有同名的进程用？",
+      "options": [
+        "kill -9",
+        "pkill",
+        "kill",
+        "killall"
+      ],
+      "answer": 3,
+      "id": 247
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "sudo 配置文件是？",
+      "options": [
+        "/etc/sudo",
+        "/etc/sudoers",
+        "/etc/sudoers.d",
+        "/etc/sudo.conf"
+      ],
+      "answer": 1,
+      "id": 248
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "编辑sudo配置文件的推荐命令是？",
+      "options": [
+        "visudo",
+        "nano /etc/sudoers",
+        "vim /etc/sudoers",
+        "sudo -e"
+      ],
+      "answer": 0,
+      "id": 249
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "在sudoers中，给用户所有权限的写法？",
+      "options": [
+        "(ALL) ALL",
+        "ALL ALL",
+        "ALL=(ALL) NOPASSWD:ALL",
+        "ALL=(ALL) ALL"
+      ],
+      "answer": 3,
+      "id": 250
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "在sudoers中，给用户无需密码所有权限的写法？",
+      "options": [
+        "ALL=(ALL) ALL",
+        "ALL ALL",
+        "NOPASSWD:ALL",
+        "ALL=(ALL) NOPASSWD:ALL"
+      ],
+      "answer": 3,
+      "id": 251
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "查看当前用户sudo权限用？",
+      "options": [
+        "sudo -L",
+        "sudo -v",
+        "sudo -k",
+        "sudo -l"
+      ],
+      "answer": 3,
+      "id": 252
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "取消sudo权限应如何操作？",
+      "options": [
+        "passwd -l",
+        "usermod -L",
+        "userdel",
+        "删除或注释sudoers中的配置"
+      ],
+      "answer": 3,
+      "id": 253
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "给用户test配置无密码重启权限，正确写法？",
+      "options": [
+        "test ALL=(ALL) /sbin/reboot",
+        "test ALL=(ALL) NOPASSWD: /sbin/reboot",
+        "test ALL=NOPASSWD: /sbin/reboot",
+        "test ALL=(ALL) NOPASSWD: ALL"
+      ],
+      "answer": 1,
+      "id": 254
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "sudo -k 的作用？",
+      "options": [
+        "查看权限",
+        "使sudo密码缓存失效",
+        "执行命令",
+        "更新缓存"
+      ],
+      "answer": 1,
+      "id": 255
+    },
+    {
+      "category": "sudo权限",
+      "difficulty": 3,
+      "question": "sudo -v 的作用？",
+      "options": [
+        "验证配置",
+        "查看版本",
+        "执行命令",
+        "更新用户的时间戳（延长sudo有效期）"
+      ],
+      "answer": 3,
+      "id": 256
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "在 /etc 下查找所有 .conf 文件，命令是？",
+      "options": [
+        "find /etc -type f -name *.conf",
+        "find /etc -iname '*.conf'",
+        "find /etc -regex '.*\\.conf'",
+        "find /etc -name '*.conf'"
+      ],
+      "answer": 3,
+      "id": 257
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下 7天前修改的文件，命令是？",
+      "options": [
+        "find /var -atime +7",
+        "find /var -ctime +7",
+        "find /var -mtime -7",
+        "find /var -mtime +7"
+      ],
+      "answer": 3,
+      "id": 258
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /home 下大于 100MB 的文件，命令是？",
+      "options": [
+        "find /home -size +100m",
+        "find /home -size 100M",
+        "find /home -size +102400k",
+        "find /home -size +100M"
+      ],
+      "answer": 3,
+      "id": 259
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找权限为 777 的文件，命令是？",
+      "options": [
+        "find / -perm 777",
+        "find / -perm -777",
+        "find / -perm +777",
+        "find / -perm /777"
+      ],
+      "answer": 0,
+      "id": 260
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找属主为 testuser 的文件，命令是？",
+      "options": [
+        "find / -user testuser",
+        "find / -name testuser",
+        "find / -uid testuser",
+        "find / -group testuser"
+      ],
+      "answer": 0,
+      "id": 261
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找空文件并删除，命令是？",
+      "options": [
+        "find / -empty -exec rm",
+        "find / -empty -delete",
+        "两者都可以",
+        "find / -size 0 -exec rm {} \\;"
+      ],
+      "answer": 1,
+      "id": 262
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找近24小时内修改的文件，命令是？",
+      "options": [
+        "find / -atime -1",
+        "find / -mtime -1",
+        "find / -mtime 1",
+        "find / -ctime -1"
+      ],
+      "answer": 1,
+      "id": 263
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 / 下 7天前访问的文件，选项是？",
+      "options": [
+        "-mtime +7",
+        "-ctime +7",
+        "-atime +7",
+        "-amin +7"
+      ],
+      "answer": 2,
+      "id": 264
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下 3天内修改的文件，选项是？",
+      "options": [
+        "-atime -3",
+        "-ctime -3",
+        "-mtime -3",
+        "-mmin -3"
+      ],
+      "answer": 2,
+      "id": 265
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /tmp 下大于 10M 的文件，选项是？",
+      "options": [
+        "-size +10M",
+        "-size 10M",
+        "-size +10240k",
+        "-size +10m"
+      ],
+      "answer": 0,
+      "id": 266
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /opt 下小于 1k 的文件，选项是？",
+      "options": [
+        "-size 1k",
+        "-size -1k",
+        "-size +1k",
+        "-size -1024"
+      ],
+      "answer": 1,
+      "id": 267
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /etc 下所有 .conf 文件并打包，正确组合是？",
+      "options": [
+        "find /etc -name '*.conf' -exec tar -cf conf.tar {} \\;",
+        "find /etc -name '*.conf' | tar -cf conf.tar -T -",
+        "find /etc -name '*.conf' -exec tar -rf conf.tar {} \\;",
+        "find /etc -name '*.conf' -print0 | tar -cf conf.tar --null -T -"
+      ],
+      "answer": 2,
+      "id": 268
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var/log 下近3天修改的文件，命令是？",
+      "options": [
+        "find /var/log -atime -3",
+        "find /var/log -mtime +3",
+        "find /var/log -ctime -3",
+        "find /var/log -mtime -3"
+      ],
+      "answer": 3,
+      "id": 269
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找类型为目录的项用？",
+      "options": [
+        "-type l",
+        "-type d",
+        "-type b",
+        "-type f"
+      ],
+      "answer": 1,
+      "id": 270
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找类型为普通文件的项用？",
+      "options": [
+        "-type f",
+        "-type c",
+        "-type d",
+        "-type l"
+      ],
+      "answer": 0,
+      "id": 271
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找指定用户组拥有的文件用？",
+      "options": [
+        "-uid",
+        "-gid",
+        "-user",
+        "-group"
+      ],
+      "answer": 3,
+      "id": 272
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看系统所有环境变量的命令是？",
+      "options": [
+        "export",
+        "printenv",
+        "set",
+        "env"
+      ],
+      "answer": 3,
+      "id": 273
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "export 命令用于？",
+      "options": [
+        "编译程序",
+        "设置或显示环境变量",
+        "安装软件",
+        "定义别名"
+      ],
+      "answer": 1,
+      "id": 274
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "echo $PATH 用于？",
+      "options": [
+        "显示PATH变量",
+        "删除PATH",
+        "修改PATH",
+        "设置PATH"
+      ],
+      "answer": 0,
+      "id": 275
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "stat 命令用于？",
+      "options": [
+        "查看文件内容",
+        "查看文件类型",
+        "查看文件权限",
+        "查看文件详细状态（包括时间）"
+      ],
+      "answer": 3,
+      "id": 276
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "文件访问时间（Access time）简写为？",
+      "options": [
+        "mtime",
+        "ctime",
+        "atime",
+        "birth"
+      ],
+      "answer": 2,
+      "id": 277
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "文件内容修改时间（Modify time）简写为？",
+      "options": [
+        "ctime",
+        "birth",
+        "mtime",
+        "atime"
+      ],
+      "answer": 2,
+      "id": 278
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "文件属性修改时间（Change time）简写为？",
+      "options": [
+        "ctime",
+        "birth",
+        "mtime",
+        "atime"
+      ],
+      "answer": 0,
+      "id": 279
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "永久修改PATH应写入哪个文件？",
+      "options": [
+        "~/.bash_history",
+        "/etc/passwd",
+        "~/.bashrc 或 /etc/profile",
+        "/etc/group"
+      ],
+      "answer": 2,
+      "id": 280
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "which 命令用于？",
+      "options": [
+        "查找软件包",
+        "查找用户",
+        "查找命令的路径",
+        "查找文件"
+      ],
+      "answer": 2,
+      "id": 281
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "type 命令用于？",
+      "options": [
+        "查看文件类型",
+        "查看权限",
+        "查找命令路径",
+        "显示命令类型（别名、内置、外部）"
+      ],
+      "answer": 3,
+      "id": 282
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看系统日期时间用？",
+      "options": [
+        "date",
+        "cal",
+        "hwclock",
+        "time"
+      ],
+      "answer": 0,
+      "id": 283
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看日历用？",
+      "options": [
+        "time",
+        "date",
+        "hwclock",
+        "cal"
+      ],
+      "answer": 3,
+      "id": 284
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看当前在线用户用？",
+      "options": [
+        "w",
+        "users",
+        "whoami",
+        "who"
+      ],
+      "answer": 3,
+      "id": 285
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看系统运行时间用？",
+      "options": [
+        "ps",
+        "uptime",
+        "top",
+        "date"
+      ],
+      "answer": 1,
+      "id": 286
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看内存使用情况用？",
+      "options": [
+        "df",
+        "top",
+        "free",
+        "du"
+      ],
+      "answer": 2,
+      "id": 287
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看磁盘空间使用情况用？",
+      "options": [
+        "free",
+        "df",
+        "fdisk",
+        "du"
+      ],
+      "answer": 1,
+      "id": 288
+    },
+    {
+      "category": "其他杂项",
+      "difficulty": 2,
+      "question": "查看目录大小用？",
+      "options": [
+        "free",
+        "du",
+        "df",
+        "ls"
+      ],
+      "answer": 1,
+      "id": 289
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 750 用字母表示为？",
+      "options": [
+        "rwx------",
+        "rwxr-x---",
+        "rw-r--r--",
+        "rwxr-xr-x"
+      ],
+      "answer": 1,
+      "id": 290
+    },
+    {
+      "category": "权限管理",
+      "difficulty": 2,
+      "question": "数字权限 640 用字母表示为？",
+      "options": [
+        "rw-r--r--",
+        "rwxr-xr-x",
+        "rw-r-----",
+        "rwx------"
+      ],
+      "answer": 2,
+      "id": 291
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 '/usr/local/bin' 是？",
+      "options": [
+        "绝对路径",
+        "硬链接",
+        "符号链接",
+        "相对路径"
+      ],
+      "answer": 0,
+      "id": 292
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 'bin' 是？",
+      "options": [
+        "绝对路径",
+        "符号链接",
+        "相对路径",
+        "硬链接"
+      ],
+      "answer": 2,
+      "id": 293
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 './config' 是？",
+      "options": [
+        "符号链接",
+        "绝对路径",
+        "硬链接",
+        "相对路径"
+      ],
+      "answer": 3,
+      "id": 294
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 '../lib' 是？",
+      "options": [
+        "绝对路径",
+        "相对路径",
+        "符号链接",
+        "硬链接"
+      ],
+      "answer": 1,
+      "id": 295
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 '/var/log/syslog' 是？",
+      "options": [
+        "相对路径",
+        "绝对路径",
+        "符号链接",
+        "硬链接"
+      ],
+      "answer": 1,
+      "id": 296
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 'logs/app.log' 是？",
+      "options": [
+        "硬链接",
+        "符号链接",
+        "相对路径",
+        "绝对路径"
+      ],
+      "answer": 2,
+      "id": 297
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 '/home/user/Downloads' 是？",
+      "options": [
+        "绝对路径",
+        "硬链接",
+        "符号链接",
+        "相对路径"
+      ],
+      "answer": 0,
+      "id": 298
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 'downloads' 是？",
+      "options": [
+        "符号链接",
+        "相对路径",
+        "绝对路径",
+        "硬链接"
+      ],
+      "answer": 1,
+      "id": 299
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 '/tmp' 是？",
+      "options": [
+        "相对路径",
+        "符号链接",
+        "绝对路径",
+        "硬链接"
+      ],
+      "answer": 2,
+      "id": 300
+    },
+    {
+      "category": "路径管理",
+      "difficulty": 1,
+      "question": "路径 'tmp/file' 是？",
+      "options": [
+        "绝对路径",
+        "硬链接",
+        "相对路径",
+        "符号链接"
+      ],
+      "answer": 2,
+      "id": 301
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下大于 1M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size -1M",
+        "-size +1M",
+        "-size +1k",
+        "-size 1M"
+      ],
+      "answer": 1,
+      "id": 302
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下大于 10M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size +10k",
+        "-size 10M",
+        "-size +10M",
+        "-size -10M"
+      ],
+      "answer": 2,
+      "id": 303
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /tmp 下大于 1M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size 1M",
+        "-size -1M",
+        "-size +1k",
+        "-size +1M"
+      ],
+      "answer": 3,
+      "id": 304
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /tmp 下大于 10M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size -10M",
+        "-size 10M",
+        "-size +10M",
+        "-size +10k"
+      ],
+      "answer": 2,
+      "id": 305
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /home 下大于 1M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size +1M",
+        "-size 1M",
+        "-size -1M",
+        "-size +1k"
+      ],
+      "answer": 0,
+      "id": 306
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /home 下大于 10M 的文件，命令中应使用哪个选项？",
+      "options": [
+        "-size 10M",
+        "-size +10k",
+        "-size +10M",
+        "-size -10M"
+      ],
+      "answer": 2,
+      "id": 307
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下 1 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-mtime -1",
+        "-ctime +1",
+        "-mtime +1",
+        "-atime +1"
+      ],
+      "answer": 2,
+      "id": 308
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /var 下 3 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-atime +3",
+        "-mtime -3",
+        "-mtime +3",
+        "-ctime +3"
+      ],
+      "answer": 2,
+      "id": 309
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /tmp 下 1 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-atime +1",
+        "-mtime +1",
+        "-ctime +1",
+        "-mtime -1"
+      ],
+      "answer": 1,
+      "id": 310
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /tmp 下 3 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-atime +3",
+        "-ctime +3",
+        "-mtime -3",
+        "-mtime +3"
+      ],
+      "answer": 3,
+      "id": 311
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /home 下 1 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-mtime -1",
+        "-mtime +1",
+        "-atime +1",
+        "-ctime +1"
+      ],
+      "answer": 1,
+      "id": 312
+    },
+    {
+      "category": "查找命令",
+      "difficulty": 3,
+      "question": "查找 /home 下 3 天前修改的文件，命令中应使用哪个选项？",
+      "options": [
+        "-mtime +3",
+        "-ctime +3",
+        "-atime +3",
+        "-mtime -3"
+      ],
+      "answer": 0,
+      "id": 313
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 alice 并指定家目录为 /home/alice，以下哪个命令正确？",
+      "options": [
+        "useradd -d /home/alice alice",
+        "useradd -g alice alice",
+        "useradd -s /bin/bash alice",
+        "useradd -m alice"
+      ],
+      "answer": 0,
+      "id": 314
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 bob 并指定家目录为 /home/bob，以下哪个命令正确？",
+      "options": [
+        "useradd -m bob",
+        "useradd -s /bin/bash bob",
+        "useradd -g bob bob",
+        "useradd -d /home/bob bob"
+      ],
+      "answer": 3,
+      "id": 315
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 tom 并指定家目录为 /home/tom，以下哪个命令正确？",
+      "options": [
+        "useradd -g tom tom",
+        "useradd -m tom",
+        "useradd -s /bin/bash tom",
+        "useradd -d /home/tom tom"
+      ],
+      "answer": 3,
+      "id": 316
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 jerry 并指定家目录为 /home/jerry，以下哪个命令正确？",
+      "options": [
+        "useradd -d /home/jerry jerry",
+        "useradd -s /bin/bash jerry",
+        "useradd -g jerry jerry",
+        "useradd -m jerry"
+      ],
+      "answer": 0,
+      "id": 317
+    },
+    {
+      "category": "用户与组管理",
+      "difficulty": 2,
+      "question": "创建用户 admin 并指定家目录为 /home/admin，以下哪个命令正确？",
+      "options": [
+        "useradd -g admin admin",
+        "useradd -s /bin/bash admin",
+        "useradd -m admin",
+        "useradd -d /home/admin admin"
+      ],
+      "answer": 3,
+      "id": 318
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "打包当前目录下所有 .conf 文件为 archive.tar，命令是？",
+      "options": [
+        "tar -xf archive.tar *.conf",
+        "tar -cf archive.tar *.conf",
+        "tar -tf archive.tar *.conf",
+        "tar -zcf archive.tar *.conf"
+      ],
+      "answer": 1,
+      "id": 319
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "打包当前目录下所有 .log 文件为 archive.tar，命令是？",
+      "options": [
+        "tar -zcf archive.tar *.log",
+        "tar -cf archive.tar *.log",
+        "tar -xf archive.tar *.log",
+        "tar -tf archive.tar *.log"
+      ],
+      "answer": 1,
+      "id": 320
+    },
+    {
+      "category": "打包压缩",
+      "difficulty": 2,
+      "question": "打包当前目录下所有 .txt 文件为 archive.tar，命令是？",
+      "options": [
+        "tar -xf archive.tar *.txt",
+        "tar -zcf archive.tar *.txt",
+        "tar -tf archive.tar *.txt",
+        "tar -cf archive.tar *.txt"
+      ],
+      "answer": 3,
+      "id": 321
+    }
+  ]
+}
